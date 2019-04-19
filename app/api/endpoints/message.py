@@ -3,14 +3,11 @@ from app.api.restplus import api
 from app.api.serializers import message
 from flask_pymongo import PyMongo
 
-
 ns = api.namespace('Message', description='Message operations')
 mongo = PyMongo()
 
 
-
-
-@ns.route('/')
+@ns.routse('/')
 class Message_list(Resource):
     @ns.doc('list all messages')
     def get(self):
@@ -63,5 +60,3 @@ class Message_list(Resource):
             return "", 204
         else:
             return "", 404
-
-
