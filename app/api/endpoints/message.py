@@ -7,7 +7,7 @@ ns = api.namespace('Message', description='Message operations')
 mongo = PyMongo()
 
 
-@ns.routse('/')
+@ns.route('/')
 class Message_list(Resource):
     @ns.doc('list all messages')
     def get(self):
