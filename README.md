@@ -51,7 +51,7 @@ git clone https://github.com/Brew8it/REST-backend.git && cd REST-backend
 ```
 Build and start our docker image and start our mongodb service
 ```
-docker-compose up --build
+sudo docker-compose up --build
 ```
 You will now be able to navigate to the following url and start using swagger UI test the API from there
 ```
