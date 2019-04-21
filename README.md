@@ -2,23 +2,23 @@
 
 REST-backend is a RESTful API that serves as a backend for a public message board.
 
-It supports the simple CRUD operations __(C)__reate, __(R)__ead, __(U)__pdate, __(D)__elete:
+It supports the simple <strong>CRUD</strong> operations <strong>(C)</strong>reate, <strong>(R)</strong>ead, <strong>(U)</strong>pdate, <strong>(U)</strong>elete:
 ```
 A user can create a message in the service
 A user can modify their own messages
 A user can delete their own messages
 A user can view all messages in the service
 ```
-__Assumption:__ Validation of username/ID is assumed to have been validated by another user endpoint.
+**Assumption:** Validation of username/ID is assumed to have been validated by another user endpoint.
 
 The API uses Python and MongoDB, it uses the following dependencies:
-* [Flask] (http://flask.pocoo.org/)
-* [Flask-RestPlus] (https://flask-restplus.readthedocs.io/en/stable/)
-* [Flask-PyMongo] (https://flask-pymongo.readthedocs.io/en/latest/)
+* [Flask](http://flask.pocoo.org/)
+* [Flask-RestPlus](https://flask-restplus.readthedocs.io/en/stable/)
+* [Flask-PyMongo](https://flask-pymongo.readthedocs.io/en/latest/)
 
 Thanks to Flask-RestPlus we get a nice [Swagger UI](https://swagger.io/tools/swagger-ui/) for easy visualisation on the
 API as well as documentation and being able to test out the API.
-![REST-Backend Swagger UI](image/swagger_ui.png width="100")
+![REST-Backend Swagger UI](image/swagger_ui.png)
 
 
 ## Getting Started
@@ -31,14 +31,14 @@ You will need both Docker and Docker-compose:
 
 #### Docker installation guide:
 
- __Arch Linux:__
+ **Arch Linux:**
  ```
  sudo pacman -S docker
  ```
-__Ubuntu:__ [Docker offical ubuntu guide] (https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+**Ubuntu:** [Docker offical ubuntu guide] (https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 #### Docker-compose installation guide:
- __Arch Linux & Ubuntu:__
+ **Arch Linux & Ubuntu:**
  ```
  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
  sudo chmod +x /usr/local/bin/docker-compose
