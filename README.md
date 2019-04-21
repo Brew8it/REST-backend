@@ -2,7 +2,7 @@
 
 REST-backend is a RESTful API that serves as a backend for a public message board.
 
-It supports the simple <strong>CRUD</strong> operations <strong>(C)</strong>reate, <strong>(R)</strong>ead, <strong>(U)</strong>pdate, <strong>(U)</strong>elete:
+It supports the simple <strong>CRUD</strong> operations <strong>(C)</strong>reate, <strong>(R)</strong>ead, <strong>(U)</strong>pdate, <strong>(D)</strong>elete:
 ```
 A user can create a message in the service
 A user can modify their own messages
