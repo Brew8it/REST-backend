@@ -9,7 +9,7 @@ A user can modify their own messages
 A user can delete their own messages
 A user can view all messages in the service
 ```
-**Assumption:** Validation of username/ID is assumed to have been validated by another user endpoint.
+**Assumption:** Validation of username/ID is assumed to have been validated by another REST endpoint.
 
 The API uses Python and MongoDB, it uses the following dependencies:
 * [Flask](http://flask.pocoo.org/)
