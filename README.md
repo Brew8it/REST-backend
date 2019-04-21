@@ -35,7 +35,7 @@ You will need both Docker and Docker-compose:
  ```
  sudo pacman -S docker
  ```
-**Ubuntu:** [Docker offical ubuntu guide] (https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+**Ubuntu:** [Docker offical ubuntu guide](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 #### Docker-compose installation guide:
  **Arch Linux & Ubuntu:**
