@@ -60,7 +60,7 @@ sudo docker-compose up --build
 ```
 You will now be able to navigate to the following url and start using swagger UI test the API from there
 ```
-http://localhost:4000/
+http://localhost:4000/api/
 ```
 #### Or if you want to use curl:
 A user can create a message in the service
