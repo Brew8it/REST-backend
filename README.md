@@ -34,7 +34,12 @@ You will need both Docker and Docker-compose:
  **Arch Linux:**
  ```
  sudo pacman -S docker
- ```
+ systemctl start docker.service
+ systemctl enable docker.service
+ groupadd docker
+ gpasswd -a user docker [replace user with your username]
+ relogin to apply the group change
+```
 **Ubuntu:** [Docker offical ubuntu guide](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 #### Docker-compose installation guide:
